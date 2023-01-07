@@ -186,6 +186,66 @@ input{
 .icon-image{
     padding-right: 10px;
 }
+
+/* Develop Area Style*/
+.skills{
+    text-align: center;
+    background-color: rgb(234, 241, 248);
+    padding-bottom: 40px;
+}
+.skills-title{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 50px 0 20px 0;
+    color: black;
+}
+.skills-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0000;
+    margin-bottom: 20px;
+    padding: 0 160px;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.course-info{
+    background: #005FAC;
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    padding: 0px 30px;
+    border: 2px solid #046abe;
+}
+.course-info-title{
+    margin-top: 35px;
+    color: #FFFFFF;
+}
+.course-info:hover{
+    background-color: #2EB5E8;
+    border: 2px solid #2EB5E8;
+    color: #0000;
+}
+hr{
+    color: darkgray;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+#btn{
+    width: 175px;
+    height: 64px;
+    color: #FFFFFF;
+    background: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 /* Footers Area Style*/
 .footer-area{
     background-color: #2EB5E8;
