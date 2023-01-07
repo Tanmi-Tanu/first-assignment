@@ -190,7 +190,7 @@ input{
 /* Develop Area Style*/
 .skills{
     text-align: center;
-    background-color: rgb(234, 241, 248);
+    background-color: #F8F8F8;
     padding-bottom: 40px;
 }
 .skills-title{
@@ -202,7 +202,7 @@ input{
 .skills-description{
     font-size: 20px;
     font-weight: 400;
-    color: #0000;
+    color: black;
     margin-bottom: 20px;
     padding: 0 160px;
 }
