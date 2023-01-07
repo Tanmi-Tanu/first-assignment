@@ -24,7 +24,7 @@ body{
 /* Header Area Style*/
 .top-area{
     background: #FFF8F3;
-    background-image: url(images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -82,10 +82,100 @@ main{
     padding: 0 120px 0 0;
 }
 /* Content Area Style*/
-.content-area{}
+.content-area{
+    text-align: center;
+}
+.content-text{
+    font-weight: 700;
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.content-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
 /* Image Area Style*/
-.images-area{}
+.images-area{
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+.text-position{
+    padding: 50px;
+}
+.images-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px;
+}
 /* Feature Area Style*/
-.features-area{}
+.features-area{
+    background-color: #151414;
+    margin-top: 60px;
+}
+.features{
+    display: flex;
+    gap: 50px;
+    padding: 60px;
+}
+.features-text{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-right: 100px;
+}
+.features-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+.features-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.form-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+form{
+
+}
+input{
+    border: 0;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+#button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #005FAC;
+    width: 170px;
+    height: 64px;
+    border: 0;
+    padding: 18px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 /* Footers Area Style*/
-.footer-area{}
+.footer-area{
+}
