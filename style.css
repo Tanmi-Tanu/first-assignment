@@ -59,9 +59,6 @@ main{
     width:fit-content;
     height: 800px;
 }
-.about-area{
-
-}
 .about{
     display: flex;
     gap: 40px;
@@ -95,15 +92,15 @@ main{
     margin-top: 50px;
 }
 .content-title{
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 28px;
     color: #151414;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .content-description{
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 20px;
     color: #737272;
 }
 /* Image Area Style*/
@@ -114,7 +111,7 @@ main{
     margin-top: 100px;
 }
 .text-position{
-    padding: 50px;
+    padding: 50px 800px 50px 50px;
 }
 .images-text{
     font-size: 40px;
@@ -130,34 +127,35 @@ main{
 }
 .features{
     display: flex;
-    gap: 50px;
+    gap: 24px;
     padding: 60px;
 }
 .features-text{
     margin-top: 60px;
     margin-bottom: 60px;
-    padding-right: 100px;
+    padding-right: 400px;
 }
 .features-title{
     font-weight: 700;
     font-size: 45px;
     color: #F8F8F8;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .features-description{
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+.features-form{
+    padding-right: 150px;
 }
 .form-title{
     font-weight: 600;
     font-size: 25px;
     color: #FFFFFF;
     margin-bottom: 15px;
-}
-form{
-
+    margin-top: 60px;
 }
 input{
     border: 0;
@@ -165,16 +163,22 @@ input{
     border-radius: 5px;
 }
 #button{
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
     color: #FFFFFF;
     background: #005FAC;
     width: 170px;
-    height: 64px;
+    height: 54px;
     border: 0;
-    padding: 18px 30px;
+    padding: 16px 30px;
     border-radius: 5px;
     margin-top: 10px;
+}
+.icon{
+    margin-top: 25px;
+}
+.icon-image{
+    padding-right: 10px;
 }
 /* Footers Area Style*/
 .footer-area{
