@@ -57,7 +57,6 @@ body{
 /* About Area Style*/
 main{
     width:fit-content;
-    height: 800px;
 }
 .about{
     display: flex;
@@ -187,6 +186,15 @@ input{
 .icon-image{
     padding-right: 10px;
 }
-/* Course Area Style*/
-
 /* Footers Area Style*/
+.footer-area{
+    background-color: #2EB5E8;
+}
+.footer-description{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
